@@ -1,5 +1,14 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: flex;
+    -webkit-text-size-adjust: flex;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 body {
     background-color: lightsteelblue;
+    margin: 50px;
 }
 
 .cities {
@@ -7,5 +16,10 @@ body {
 }
 
 #closing {
-    color: purple;
+    color: darkred;
+}
+
+figure {
+    justify-content: center;
+    padding: 25px 150px
 }
